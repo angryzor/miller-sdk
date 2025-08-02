@@ -145,6 +145,11 @@ PUBLIC ?CFL_UnkFunc1@CameraBridge@camera@app@@UEAAXAEBUFrustumParameter@2app_cmn
     mov rax, 0140076bb0h
     jmp rax
 
+PUBLIC ?SetEventPlayer@EventScene@evt@app@@QEAAXPEAVEventPlayer@23@@Z
+?SetEventPlayer@EventScene@evt@app@@QEAAXPEAVEventPlayer@23@@Z:
+    mov rax, 0140076c40h
+    jmp rax
+
 PUBLIC ?CFL_UnkFunc2@CameraBridge@camera@app@@UEAAXAEBVMatrix34@math@csl@@AEBUFrustumParameter@2app_cmn@@@Z
 ?CFL_UnkFunc2@CameraBridge@camera@app@@UEAAXAEBVMatrix34@math@csl@@AEBUFrustumParameter@2app_cmn@@@Z:
     mov rax, 0140076c50h
@@ -15280,11 +15285,6 @@ PUBLIC ?Create@DebugTips@dbg@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
     mov rax, 01400e92f0h
     jmp rax
 
-PUBLIC ??_DDvElementOverrideAsm@dv@app@@QEAAXXZ
-??_DDvElementOverrideAsm@dv@app@@QEAAXXZ:
-    mov rax, 01400e93f0h
-    jmp rax
-
 PUBLIC ??_DDvElementToneMapParam@dv@app@@QEAAXXZ
 ??_DDvElementToneMapParam@dv@app@@QEAAXXZ:
     mov rax, 01400e93f0h
@@ -15293,11 +15293,6 @@ PUBLIC ??_DDvElementToneMapParam@dv@app@@QEAAXXZ
 PUBLIC ??_DAppDvElementBase@dv@app@@QEAAXXZ
 ??_DAppDvElementBase@dv@app@@QEAAXXZ:
     mov rax, 01400e9400h
-    jmp rax
-
-PUBLIC ?UnkFunc4@AppDvElementBase@dv@app@@UEAAXXZ
-?UnkFunc4@AppDvElementBase@dv@app@@UEAAXXZ:
-    mov rax, 01400e9480h
     jmp rax
 
 PUBLIC ?UnkFunc4@DvElementFade@dv@app@@UEAAXXZ
@@ -15328,6 +15323,11 @@ PUBLIC ??_DDvElementAtmosphereGodrayParam@dv@app@@QEAAXXZ
 PUBLIC ?Create@DvElementAtmosphereGodrayParam@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@DvElementAtmosphereGodrayParam@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01400e9690h
+    jmp rax
+
+PUBLIC ?AppUnkFunc4@DvElementAtmosphereGodrayParam@dv@app@@UEAAXPEAX@Z
+?AppUnkFunc4@DvElementAtmosphereGodrayParam@dv@app@@UEAAXPEAX@Z:
+    mov rax, 01400e96f0h
     jmp rax
 
 PUBLIC ?UnkFunc1@DvElementAtmosphereGodrayParam@dv@app@@UEAA_NXZ
@@ -15380,8 +15380,8 @@ PUBLIC ?RemoveCallback@DvElementAtmosphereHeightFogParam@dv@app@@UEAAXXZ
     mov rax, 01400e9920h
     jmp rax
 
-PUBLIC ?AppUnkFunc3@AppDvElementBase@dv@app@@UEAAPEAXPEAXI@Z
-?AppUnkFunc3@AppDvElementBase@dv@app@@UEAAPEAXPEAXI@Z:
+PUBLIC ?AppUnkFunc3@DvElementAtmosphereGodrayParam@dv@app@@UEAAPEAXPEAXI@Z
+?AppUnkFunc3@DvElementAtmosphereGodrayParam@dv@app@@UEAAPEAXPEAXI@Z:
     mov rax, 01400e9a10h
     jmp rax
 
@@ -15398,6 +15398,11 @@ PUBLIC ??_DDvElementAtmosphereHeightFogParam@dv@app@@QEAAXXZ
 PUBLIC ?Create@DvElementAtmosphereHeightFogParam@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@DvElementAtmosphereHeightFogParam@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01400ea0a0h
+    jmp rax
+
+PUBLIC ?AppUnkFunc4@DvElementAtmosphereHeightFogParam@dv@app@@UEAAXPEAX@Z
+?AppUnkFunc4@DvElementAtmosphereHeightFogParam@dv@app@@UEAAXPEAX@Z:
+    mov rax, 01400ea100h
     jmp rax
 
 PUBLIC ?Setup@DvElementAtmosphereHeightFogParam@dv@app@@UEAAXPEAX@Z
@@ -15765,6 +15770,11 @@ PUBLIC ?Create@DvElementCameraBlurParam@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl
     mov rax, 01400eccb0h
     jmp rax
 
+PUBLIC ?AppUnkFunc4@DvElementCameraBlurParam@dv@app@@UEAAXPEAX@Z
+?AppUnkFunc4@DvElementCameraBlurParam@dv@app@@UEAAXPEAX@Z:
+    mov rax, 01400ecd10h
+    jmp rax
+
 PUBLIC ?Setup@DvElementCameraBlurParam@dv@app@@UEAAXPEAX@Z
 ?Setup@DvElementCameraBlurParam@dv@app@@UEAAXPEAX@Z:
     mov rax, 01400ecd70h
@@ -15898,6 +15908,11 @@ PUBLIC ??_DRequestOverlayCaption@ui@app@@QEAAXXZ
 PUBLIC ?Create@DvElementCaption@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@DvElementCaption@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01400ed9e0h
+    jmp rax
+
+PUBLIC ?AppUnkFunc4@DvElementCaption@dv@app@@UEAAXPEAX@Z
+?AppUnkFunc4@DvElementCaption@dv@app@@UEAAXPEAX@Z:
+    mov rax, 01400eda50h
     jmp rax
 
 PUBLIC ?UnkFunc1@DvElementCaption@dv@app@@UEAA_NXZ
@@ -16075,6 +16090,11 @@ PUBLIC ?Create@DvElementColorContrast@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@
     mov rax, 01400eec10h
     jmp rax
 
+PUBLIC ?AddCallback@DvElementColorContrast@dv@app@@UEAA_NHAEAVTransform@math@csl@@@Z
+?AddCallback@DvElementColorContrast@dv@app@@UEAA_NHAEAVTransform@math@csl@@@Z:
+    mov rax, 01400eeca0h
+    jmp rax
+
 PUBLIC ?UnkFunc2@DvElementColorContrast@dv@app@@UEAAPEAXXZ
 ?UnkFunc2@DvElementColorContrast@dv@app@@UEAAPEAXXZ:
     mov rax, 01400eed60h
@@ -16195,18 +16215,8 @@ PUBLIC ?UnkFunc2@DvElementFade@dv@app@@UEAAPEAXXZ
     mov rax, 01400efa70h
     jmp rax
 
-PUBLIC ?UnkFunc2@DvElementBase@dv@hh@@UEAAPEAXXZ
-?UnkFunc2@DvElementBase@dv@hh@@UEAAPEAXXZ:
-    mov rax, 01400efa70h
-    jmp rax
-
 PUBLIC ?RemoveCallback@DvElementFade@dv@app@@UEAAPEAXXZ
 ?RemoveCallback@DvElementFade@dv@app@@UEAAPEAXXZ:
-    mov rax, 01400efa70h
-    jmp rax
-
-PUBLIC ?RemoveCallback@DvElementBase@dv@hh@@UEAAPEAXXZ
-?RemoveCallback@DvElementBase@dv@hh@@UEAAPEAXXZ:
     mov rax, 01400efa70h
     jmp rax
 
@@ -16215,8 +16225,8 @@ PUBLIC ?RemoveCallback@DvElementFade@dv@app@@UEAAXXZ
     mov rax, 01400efa70h
     jmp rax
 
-PUBLIC ?RemoveCallback@DvElementBase@dv@hh@@UEAAXXZ
-?RemoveCallback@DvElementBase@dv@hh@@UEAAXXZ:
+PUBLIC ?RemoveCallback@DvElementCrossFade@dv@app@@UEAAXXZ
+?RemoveCallback@DvElementCrossFade@dv@app@@UEAAXXZ:
     mov rax, 01400efa70h
     jmp rax
 
@@ -16830,8 +16840,8 @@ PUBLIC ?AppUnkFunc0@DvElementFootIk@dv@app@@UEAAXXZ
     mov rax, 01400f2d00h
     jmp rax
 
-PUBLIC ?AppUnkFunc0@AppDvElementBase@dv@app@@UEAAXXZ
-?AppUnkFunc0@AppDvElementBase@dv@app@@UEAAXXZ:
+PUBLIC ?OnDataUpdated@DvElementFootIk@dv@app@@UEAAXXZ
+?OnDataUpdated@DvElementFootIk@dv@app@@UEAAXXZ:
     mov rax, 01400f2d00h
     jmp rax
 
@@ -16840,8 +16850,8 @@ PUBLIC ?OnDataUpdated@AppDvElementBase@dv@app@@UEAAXXZ
     mov rax, 01400f2d00h
     jmp rax
 
-PUBLIC ?OnDataUpdated@DvElementFootIk@dv@app@@UEAAXXZ
-?OnDataUpdated@DvElementFootIk@dv@app@@UEAAXXZ:
+PUBLIC ?OnDataUpdated@DvElementOverrideAsm@dv@app@@UEAAXXZ
+?OnDataUpdated@DvElementOverrideAsm@dv@app@@UEAAXXZ:
     mov rax, 01400f2d00h
     jmp rax
 
@@ -17070,6 +17080,16 @@ PUBLIC ?Update@DvElementLetterBox@dv@app@@UEAAXHAEAVTransform@math@csl@@@Z
     mov rax, 01400f39f0h
     jmp rax
 
+PUBLIC ?RemoveCallback@DvElementBase@dv@hh@@UEAAXXZ
+?RemoveCallback@DvElementBase@dv@hh@@UEAAXXZ:
+    mov rax, 01400f3a60h
+    jmp rax
+
+PUBLIC ?RemoveCallback@DvElementLetterBox@dv@app@@UEAAXXZ
+?RemoveCallback@DvElementLetterBox@dv@app@@UEAAXXZ:
+    mov rax, 01400f3a60h
+    jmp rax
+
 PUBLIC ??_GDvElementLipAnimation@dv@app@@QEAAXXZ
 ??_GDvElementLipAnimation@dv@app@@QEAAXXZ:
     mov rax, 01400f3aa0h
@@ -17163,6 +17183,16 @@ PUBLIC ??_DDvElementLookAtIK@dv@app@@QEAAXXZ
 PUBLIC ?Create@DvElementLookAtIK@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@DvElementLookAtIK@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01400f4050h
+    jmp rax
+
+PUBLIC ?AppUnkFunc4@AppDvElementBase@dv@app@@UEAAXPEAX@Z
+?AppUnkFunc4@AppDvElementBase@dv@app@@UEAAXPEAX@Z:
+    mov rax, 01400f40b0h
+    jmp rax
+
+PUBLIC ?AppUnkFunc4@DvElementLookAtIK@dv@app@@UEAAXPEAX@Z
+?AppUnkFunc4@DvElementLookAtIK@dv@app@@UEAAXPEAX@Z:
+    mov rax, 01400f40b0h
     jmp rax
 
 PUBLIC ?Setup@DvElementLookAtIK@dv@app@@UEAAXPEAX@Z
@@ -17420,9 +17450,29 @@ PUBLIC ??_GDvElementOverrideAsm@dv@app@@QEAAXXZ
     mov rax, 01400f5df0h
     jmp rax
 
+PUBLIC ??_DDvElementOverrideAsm@dv@app@@QEAAXXZ
+??_DDvElementOverrideAsm@dv@app@@QEAAXXZ:
+    mov rax, 01400f5df0h
+    jmp rax
+
 PUBLIC ?Create@DvElementOverrideAsm@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z
 ?Create@DvElementOverrideAsm@dv@app@@SAPEAV123@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01400f5e50h
+    jmp rax
+
+PUBLIC ?Update@DvElementOverrideAsm@dv@app@@UEAAXHAEAVTransform@math@csl@@@Z
+?Update@DvElementOverrideAsm@dv@app@@UEAAXHAEAVTransform@math@csl@@@Z:
+    mov rax, 01400f5ec0h
+    jmp rax
+
+PUBLIC ?AddCallback@DvElementOverrideAsm@dv@app@@UEAA_NHAEAVTransform@math@csl@@@Z
+?AddCallback@DvElementOverrideAsm@dv@app@@UEAA_NHAEAVTransform@math@csl@@@Z:
+    mov rax, 01400f5f20h
+    jmp rax
+
+PUBLIC ?RemoveCallback@DvElementOverrideAsm@dv@app@@UEAAXXZ
+?RemoveCallback@DvElementOverrideAsm@dv@app@@UEAAXXZ:
+    mov rax, 01400f5fd0h
     jmp rax
 
 PUBLIC ??_GDvElementPbaReset@dv@app@@QEAAXXZ
@@ -18030,6 +18080,11 @@ PUBLIC ?UnkFunc6@DvElementVariablePointLight@dv@app@@UEAAXHVTransform@math@csl@@
     mov rax, 01400fafa0h
     jmp rax
 
+PUBLIC ?UnkUpdate@DvElementVariablePointLight@dv@app@@UEAAXHAEAVTransform@math@csl@@@Z
+?UnkUpdate@DvElementVariablePointLight@dv@app@@UEAAXHAEAVTransform@math@csl@@@Z:
+    mov rax, 01400fafa0h
+    jmp rax
+
 PUBLIC ?Create@VariablePointLightObject@DvElementVariablePointLight@dv@app@@CAPEAV1234@PEAVIAllocator@fnd@csl@@@Z
 ?Create@VariablePointLightObject@DvElementVariablePointLight@dv@app@@CAPEAV1234@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01400fafb0h
@@ -18548,6 +18603,11 @@ PUBLIC ??_D?$SaveDataAccessor@UOptionAudioData@save@app@@@save@app@@QEAAXXZ
 PUBLIC ??_DOptionAudioAc@save@app@@QEAAXXZ
 ??_DOptionAudioAc@save@app@@QEAAXXZ:
     mov rax, 014010b1b0h
+    jmp rax
+
+PUBLIC ?GetSetupData@EventScene@evt@app@@QEBAAEAUEventSetupData@23@XZ
+?GetSetupData@EventScene@evt@app@@QEBAAEAUEventSetupData@23@XZ:
+    mov rax, 014010b300h
     jmp rax
 
 PUBLIC ??0EventCamera@camera@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
@@ -51995,6 +52055,11 @@ PUBLIC ?GetGUID@DvNodeBase@dv@hh@@QEAAPEADXZ
     mov rax, 0140839040h
     jmp rax
 
+PUBLIC ?GetGUID@DvNodeBase@dv@hh@@QEBAPEADXZ
+?GetGUID@DvNodeBase@dv@hh@@QEBAPEADXZ:
+    mov rax, 0140839040h
+    jmp rax
+
 PUBLIC ?fUnk3@CameraFrame@camera@app_cmn@@UEAA_NXZ
 ?fUnk3@CameraFrame@camera@app_cmn@@UEAA_NXZ:
     mov rax, 014083a360h
@@ -52305,11 +52370,6 @@ PUBLIC ?Reload@ResEffect@eff@hh@@UEAAXPEAX_K@Z
     mov rax, 014084bfd0h
     jmp rax
 
-PUBLIC ?UnkFunc6@DvElementBase@dv@hh@@UEAAXXZ
-?UnkFunc6@DvElementBase@dv@hh@@UEAAXXZ:
-    mov rax, 014084bfd0h
-    jmp rax
-
 PUBLIC ?UnkFunc6@DvElementPointLight@dv@hh@@UEAAXXZ
 ?UnkFunc6@DvElementPointLight@dv@hh@@UEAAXXZ:
     mov rax, 014084bfd0h
@@ -52320,11 +52380,6 @@ PUBLIC ?UnkFunc6@DvElementSpotlight@dv@hh@@UEAAXXZ
     mov rax, 014084bfd0h
     jmp rax
 
-PUBLIC ?UnkFunc6@DvElementBase@dv@hh@@UEAAXHVTransform@math@csl@@@Z
-?UnkFunc6@DvElementBase@dv@hh@@UEAAXHVTransform@math@csl@@@Z:
-    mov rax, 014084bfd0h
-    jmp rax
-
 PUBLIC ?UnkFunc6@DvElementPointLight@dv@hh@@UEAAXHVTransform@math@csl@@@Z
 ?UnkFunc6@DvElementPointLight@dv@hh@@UEAAXHVTransform@math@csl@@@Z:
     mov rax, 014084bfd0h
@@ -52332,6 +52387,21 @@ PUBLIC ?UnkFunc6@DvElementPointLight@dv@hh@@UEAAXHVTransform@math@csl@@@Z
 
 PUBLIC ?UnkFunc6@DvElementSpotlight@dv@hh@@UEAAXHVTransform@math@csl@@@Z
 ?UnkFunc6@DvElementSpotlight@dv@hh@@UEAAXHVTransform@math@csl@@@Z:
+    mov rax, 014084bfd0h
+    jmp rax
+
+PUBLIC ?UnkUpdate@DvElementBase@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z
+?UnkUpdate@DvElementBase@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z:
+    mov rax, 014084bfd0h
+    jmp rax
+
+PUBLIC ?UnkUpdate@DvElementPointLight@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z
+?UnkUpdate@DvElementPointLight@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z:
+    mov rax, 014084bfd0h
+    jmp rax
+
+PUBLIC ?UnkUpdate@DvElementSpotlight@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z
+?UnkUpdate@DvElementSpotlight@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z:
     mov rax, 014084bfd0h
     jmp rax
 
@@ -58435,6 +58505,11 @@ PUBLIC ?IsUnkFlag0@DvNodeBase@dv@hh@@UEAA_NXZ
     mov rax, 0140a8dbf0h
     jmp rax
 
+PUBLIC ?IsInitialized@DvNodeBase@dv@hh@@UEAA_NXZ
+?IsInitialized@DvNodeBase@dv@hh@@UEAA_NXZ:
+    mov rax, 0140a8dbf0h
+    jmp rax
+
 PUBLIC ?SetTransform@DvNodeBase@dv@hh@@QEAAXPEAVTransform@math@csl@@@Z
 ?SetTransform@DvNodeBase@dv@hh@@QEAAXPEAVTransform@math@csl@@@Z:
     mov rax, 0140a8dc80h
@@ -58482,6 +58557,11 @@ PUBLIC ?GetDvSceneObject@DvNodeBaseAnimationModel@dv@hh@@QEAAPEAVAppDvSceneObjec
 
 PUBLIC ?IsUnkFlag0@DvNodeBaseAnimationModel@dv@hh@@UEAA_NXZ
 ?IsUnkFlag0@DvNodeBaseAnimationModel@dv@hh@@UEAA_NXZ:
+    mov rax, 0140a8ef30h
+    jmp rax
+
+PUBLIC ?IsInitialized@DvNodeBaseAnimationModel@dv@hh@@UEAA_NXZ
+?IsInitialized@DvNodeBaseAnimationModel@dv@hh@@UEAA_NXZ:
     mov rax, 0140a8ef30h
     jmp rax
 
@@ -58593,6 +58673,16 @@ PUBLIC ?PreStepCallback@DvSceneControl@dv@hh@@UEAAXPEAVGameManager@game@3@AEBUGa
 PUBLIC ?PostStepCallback@DvSceneControl@dv@hh@@UEAAXPEAVGameManager@game@3@AEBUGameStepInfo@53@@Z
 ?PostStepCallback@DvSceneControl@dv@hh@@UEAAXPEAVGameManager@game@3@AEBUGameStepInfo@53@@Z:
     mov rax, 0140a916f0h
+    jmp rax
+
+PUBLIC ?GetListeners@DvSceneControl@dv@hh@@QEBAAEAV?$MoveArray@PEAVDvSceneControlListener@dv@hh@@@ut@csl@@XZ
+?GetListeners@DvSceneControl@dv@hh@@QEBAAEAV?$MoveArray@PEAVDvSceneControlListener@dv@hh@@@ut@csl@@XZ:
+    mov rax, 0140a91a60h
+    jmp rax
+
+PUBLIC ?GetCutsceneName@DvSceneControl@dv@hh@@QEAAPEBDXZ
+?GetCutsceneName@DvSceneControl@dv@hh@@QEAAPEBDXZ:
+    mov rax, 0140a91d80h
     jmp rax
 
 PUBLIC ?PreObjectUpdateCallback@ObjectUpdateListener@game@hh@@UEAAXPEAVGameManager@23@W4UpdatingPhase@fnd@3@AEBUSUpdateInfo@63@@Z
@@ -58860,6 +58950,11 @@ PUBLIC ?UnkFunc6@DvNodeBase@dv@hh@@UEAAXPEAX0@Z
     mov rax, 0140a99b30h
     jmp rax
 
+PUBLIC ?UnkUpdate@DvNodeBase@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z
+?UnkUpdate@DvNodeBase@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z:
+    mov rax, 0140a99b30h
+    jmp rax
+
 PUBLIC ??0DvNodeModel@dv@hh@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 ??0DvNodeModel@dv@hh@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 0140a9a040h
@@ -58877,6 +58972,11 @@ PUBLIC ?Update@DvNodeModel@dv@hh@@UEAAXH@Z
 
 PUBLIC ?UnkFunc6@DvNodeModel@dv@hh@@UEAAXPEAX0@Z
 ?UnkFunc6@DvNodeModel@dv@hh@@UEAAXPEAX0@Z:
+    mov rax, 0140a9a170h
+    jmp rax
+
+PUBLIC ?UnkUpdate@DvNodeModel@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z
+?UnkUpdate@DvNodeModel@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z:
     mov rax, 0140a9a170h
     jmp rax
 
@@ -59072,6 +59172,11 @@ PUBLIC ?UnkFunc11@DvNodeBase@dv@hh@@UEAAXXZ
 
 PUBLIC ?UnkFunc6@DvNodeElement@dv@hh@@UEAAXPEAX0@Z
 ?UnkFunc6@DvNodeElement@dv@hh@@UEAAXPEAX0@Z:
+    mov rax, 0140a9b930h
+    jmp rax
+
+PUBLIC ?UnkUpdate@DvNodeElement@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z
+?UnkUpdate@DvNodeElement@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z:
     mov rax, 0140a9b930h
     jmp rax
 
@@ -60140,13 +60245,13 @@ PUBLIC ?SetData@DvElementControllerVibration@dv@hh@@UEAAXPEAX@Z
     mov rax, 0140aa48a0h
     jmp rax
 
-PUBLIC ?UnkFunc7@DvElementBase@dv@hh@@UEAAXXZ
-?UnkFunc7@DvElementBase@dv@hh@@UEAAXXZ:
+PUBLIC ?UnkFunc7@DvElementControllerVibration@dv@hh@@UEAAXXZ
+?UnkFunc7@DvElementControllerVibration@dv@hh@@UEAAXXZ:
     mov rax, 0140aa4900h
     jmp rax
 
-PUBLIC ?UnkFunc8@DvElementBase@dv@hh@@UEAAXXZ
-?UnkFunc8@DvElementBase@dv@hh@@UEAAXXZ:
+PUBLIC ?UnkFunc8@DvElementControllerVibration@dv@hh@@UEAAXXZ
+?UnkFunc8@DvElementControllerVibration@dv@hh@@UEAAXXZ:
     mov rax, 0140aa4910h
     jmp rax
 
@@ -60248,6 +60353,16 @@ PUBLIC ?Update@DvElementMaterialParam@dv@hh@@UEAAXHVTransform@math@csl@@@Z
 PUBLIC ?Update@DvElementMaterialParam@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z
 ?Update@DvElementMaterialParam@dv@hh@@UEAAXHAEAVTransform@math@csl@@@Z:
     mov rax, 0140aa4e20h
+    jmp rax
+
+PUBLIC ?AddCallback@DvElementBase@dv@hh@@UEAA_NHAEAVTransform@math@csl@@@Z
+?AddCallback@DvElementBase@dv@hh@@UEAA_NHAEAVTransform@math@csl@@@Z:
+    mov rax, 0140aa4ea0h
+    jmp rax
+
+PUBLIC ?AddCallback@DvElementMaterialParam@dv@hh@@UEAA_NHAEAVTransform@math@csl@@@Z
+?AddCallback@DvElementMaterialParam@dv@hh@@UEAA_NHAEAVTransform@math@csl@@@Z:
+    mov rax, 0140aa4ea0h
     jmp rax
 
 PUBLIC ?UnkFunc2@DvElementMaterialParam@dv@hh@@UEAAPEAXXZ
@@ -95310,8 +95425,8 @@ PUBLIC ?instance@?$HandleManager@VSoundPlaybackObject@snd@hh@@@fnd@hh@@2PEAV123@
     mov rax, 01429bb968h
     jmp rax
 
-PUBLIC ?instance@?$HandleManager@VMovieHandleObj@fmv@hh@@@fnd@hh@@2PEAV123@EA
-?instance@?$HandleManager@VMovieHandleObj@fmv@hh@@@fnd@hh@@2PEAV123@EA:
+PUBLIC ?instance@?$HandleManager@VMoviePlaybackObject@fmv@hh@@@fnd@hh@@2PEAV123@EA
+?instance@?$HandleManager@VMoviePlaybackObject@fmv@hh@@@fnd@hh@@2PEAV123@EA:
     mov rax, 01429bb9b8h
     jmp rax
 
@@ -104045,9 +104160,9 @@ PUBLIC ?DeleteData@DvElementFade@dv@app@@UEAAXXZ
     mov rax, 014669f9b0h
     jmp rax
 
-PUBLIC ?DeleteData@AppDvElementBase@dv@app@@UEAAXXZ
-?DeleteData@AppDvElementBase@dv@app@@UEAAXXZ:
-    mov rax, 014669f9b0h
+PUBLIC ?GetDvSceneControl@DvElementBase@dv@hh@@QEAAPEAVDvSceneControl@23@XZ
+?GetDvSceneControl@DvElementBase@dv@hh@@QEAAPEAVDvSceneControl@23@XZ:
+    mov rax, 01466b2080h
     jmp rax
 
 PUBLIC ?OnDataDeleted@DvElementFade@dv@app@@UEAAXXZ
@@ -104055,8 +104170,8 @@ PUBLIC ?OnDataDeleted@DvElementFade@dv@app@@UEAAXXZ
     mov rax, 01466b4e40h
     jmp rax
 
-PUBLIC ?OnDataDeleted@AppDvElementBase@dv@app@@UEAAXXZ
-?OnDataDeleted@AppDvElementBase@dv@app@@UEAAXXZ:
+PUBLIC ?OnDataDeleted@DvElementAuraRoad@dv@app@@UEAAXXZ
+?OnDataDeleted@DvElementAuraRoad@dv@app@@UEAAXXZ:
     mov rax, 01466b4e40h
     jmp rax
 
@@ -104300,6 +104415,11 @@ PUBLIC ?PlayEvent@EventPlayer@evt@app@@QEAAXPEAUEventSetupData@23@@Z
     mov rax, 0146986900h
     jmp rax
 
+PUBLIC ?PlayEvent@EventPlayer@evt@app@@QEAAXAEAUEventSetupData@23@@Z
+?PlayEvent@EventPlayer@evt@app@@QEAAXAEAUEventSetupData@23@@Z:
+    mov rax, 0146986900h
+    jmp rax
+
 PUBLIC ?OnCutsceneEnd@EventPlayer@evt@app@@UEAAXXZ
 ?OnCutsceneEnd@EventPlayer@evt@app@@UEAAXXZ:
     mov rax, 01469a3550h
@@ -104308,6 +104428,36 @@ PUBLIC ?OnCutsceneEnd@EventPlayer@evt@app@@UEAAXXZ
 PUBLIC ?ProcessMessage@EventPlayer@evt@app@@UEAA_NAEAVMessage@fnd@hh@@@Z
 ?ProcessMessage@EventPlayer@evt@app@@UEAA_NAEAVMessage@fnd@hh@@@Z:
     mov rax, 01469a54c0h
+    jmp rax
+
+PUBLIC ?SetMovie@EventPlayer@evt@app@@QEAAXPEBD_N@Z
+?SetMovie@EventPlayer@evt@app@@QEAAXPEBD_N@Z:
+    mov rax, 01469a6cd0h
+    jmp rax
+
+PUBLIC ??0EventScene@evt@app@@QEAA@PEAVIAllocator@fnd@csl@@PEBD@Z
+??0EventScene@evt@app@@QEAA@PEAVIAllocator@fnd@csl@@PEBD@Z:
+    mov rax, 01469fc640h
+    jmp rax
+
+PUBLIC ?SetMovie@EventScene@evt@app@@QEAAX_N@Z
+?SetMovie@EventScene@evt@app@@QEAAX_N@Z:
+    mov rax, 0146a700e0h
+    jmp rax
+
+PUBLIC ?AddCutscene@EventSceneManager@evt@app@@QEAAXPEBD_N@Z
+?AddCutscene@EventSceneManager@evt@app@@QEAAXPEBD_N@Z:
+    mov rax, 0146aa4340h
+    jmp rax
+
+PUBLIC ?HasCutscene@EventSceneManager@evt@app@@QEAA_NPEBD@Z
+?HasCutscene@EventSceneManager@evt@app@@QEAA_NPEBD@Z:
+    mov rax, 0146ac0450h
+    jmp rax
+
+PUBLIC ?GetEventScene@EventSceneManager@evt@app@@QEAAPEAVEventScene@23@PEBD@Z
+?GetEventScene@EventSceneManager@evt@app@@QEAAPEAVEventScene@23@PEBD@Z:
+    mov rax, 0146ac0450h
     jmp rax
 
 PUBLIC ??0EventEnvironmentCameraInterpolate@evt@app@@QEAA@PEAVIAllocator@fnd@csl@@@Z
@@ -113700,6 +113850,11 @@ PUBLIC ??0DeviceManagerListener@hid@hh@@QEAA@PEAVIAllocator@fnd@csl@@@Z
     mov rax, 014fd7f760h
     jmp rax
 
+PUBLIC ??0MoviePlaybackObject@fmv@hh@@QEAA@PEAVIAllocator@fnd@csl@@PEAVMoviePlayerCri@12@@Z
+??0MoviePlaybackObject@fmv@hh@@QEAA@PEAVIAllocator@fnd@csl@@PEAVMoviePlayerCri@12@@Z:
+    mov rax, 014ffd0390h
+    jmp rax
+
 PUBLIC ??0MovieRenderObject@fmv@hh@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 ??0MovieRenderObject@fmv@hh@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 014fff53b0h
@@ -113730,8 +113885,8 @@ PUBLIC ??_DMovieManager@fmv@hh@@QEAAXXZ
     mov rax, 015005a1c0h
     jmp rax
 
-PUBLIC ?CreateMovie@MovieManager@fmv@hh@@QEAA?AV?$Handle@VMovieHandleObj@fmv@hh@@V?$HandleManager@VMovieHandleObj@fmv@hh@@@fnd@3@@fnd@3@PEBDPEAUMovieSetupData@123@PEAVIAllocator@5csl@@D@Z
-?CreateMovie@MovieManager@fmv@hh@@QEAA?AV?$Handle@VMovieHandleObj@fmv@hh@@V?$HandleManager@VMovieHandleObj@fmv@hh@@@fnd@3@@fnd@3@PEBDPEAUMovieSetupData@123@PEAVIAllocator@5csl@@D@Z:
+PUBLIC ?CreateMovie@MovieManager@fmv@hh@@QEAA?AV?$Handle@VMoviePlaybackObj@fmv@hh@@V?$HandleManager@VMoviePlaybackObj@fmv@hh@@@fnd@3@@fnd@3@PEBDPEAUMovieSetupData@123@PEAVIAllocator@5csl@@D@Z
+?CreateMovie@MovieManager@fmv@hh@@QEAA?AV?$Handle@VMoviePlaybackObj@fmv@hh@@V?$HandleManager@VMoviePlaybackObj@fmv@hh@@@fnd@3@@fnd@3@PEBDPEAUMovieSetupData@123@PEAVIAllocator@5csl@@D@Z:
     mov rax, 015005b910h
     jmp rax
 
@@ -113828,6 +113983,11 @@ PUBLIC ?Create@ResDvScene@dv@hh@@CAPEAVManagedResource@fnd@3@PEAVIAllocator@5csl
 PUBLIC ??0DvNodeBase@dv@hh@@QEAA@PEAVIAllocator@fnd@csl@@@Z
 ??0DvNodeBase@dv@hh@@QEAA@PEAVIAllocator@fnd@csl@@@Z:
     mov rax, 01502977c0h
+    jmp rax
+
+PUBLIC ?SetInitializedFlag@DvNodeBase@dv@hh@@QEAAX_N@Z
+?SetInitializedFlag@DvNodeBase@dv@hh@@QEAAX_N@Z:
+    mov rax, 01502e0280h
     jmp rax
 
 PUBLIC ?AddCallback@GameObject@game@hh@@UEAAXPEAVGameManager@23@@Z
@@ -113957,6 +114117,11 @@ PUBLIC ?Start@DvNodeElement@dv@hh@@UEAAXXZ
 
 PUBLIC ?IsUnkFlag0@DvNodeElement@dv@hh@@UEAA_NXZ
 ?IsUnkFlag0@DvNodeElement@dv@hh@@UEAA_NXZ:
+    mov rax, 0150502690h
+    jmp rax
+
+PUBLIC ?IsInitialized@DvNodeElement@dv@hh@@UEAA_NXZ
+?IsInitialized@DvNodeElement@dv@hh@@UEAA_NXZ:
     mov rax, 0150502690h
     jmp rax
 
